@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Swag Test" time="149.545" tests="4" failures="0" skips="0" errors="0">
+   <testsuite name="Swag Test" tests="4" failures="0" errors="0" time="149.545" skips="0" timestamp="2021-03-19 04:12:51" hostname="AAKASH - LAPTOP-8R4T1COR" id="Test Suites/Swag Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238"/>
+         <property name="logFiles" value="C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\execution0.log"/>
+         <property name="attachments" value="C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107392757.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107401491.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107406455.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107422733.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107460241.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107461280.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107481448.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107486642.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107489727.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107507253.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107512304.png, C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107516488.png"/>
+         <property name="hostName" value="AAKASH - LAPTOP-8R4T1COR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.68.109"/>
+         <property name="sessionId" value="30e4ef825fc255de97938c07dd6994c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/E2E Flow" time="33.639" classname="Test Cases/E2E Flow" status="PASSED">
+         <system-out><![CDATA[2021-03-19 04:12:56 - [TEST_CASE][PASSED] - Test Cases/E2E Flow: Test Cases/E2E Flow
+
+2021-03-19 04:12:58 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:12:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-19 04:12:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-19 04:13:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:13:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-19 04:13:07 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-19 04:13:07 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-03-19 04:13:07 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:13:08 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:13:08 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Swag Labs/Page_Swag Labs/Password"), "secret_sauce"): Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:13:10 - [MESSAGE][PASSED] - Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Login")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART' is clicked on
+
+2021-03-19 04:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART' is clicked on
+
+2021-03-19 04:13:11 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2021-03-19 04:13:12 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2021-03-19 04:13:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:13:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-03-19 04:13:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107392757.png]]
+
+2021-03-19 04:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Cart")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/CHECKOUT")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/CHECKOUT' is clicked on
+
+2021-03-19 04:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/CHECKOUT' is clicked on
+
+2021-03-19 04:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/First Name - Checkout"), "Aakash"): Text 'Aakash' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/First Name - Checkout'
+
+2021-03-19 04:13:18 - [MESSAGE][PASSED] - Text 'Aakash' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/First Name - Checkout'
+
+2021-03-19 04:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Last Name - Checkout"), "Arora"): Text 'Arora' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Last Name - Checkout'
+
+2021-03-19 04:13:19 - [MESSAGE][PASSED] - Text 'Arora' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Last Name - Checkout'
+
+2021-03-19 04:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Zip Code - Checkout"), "201301"): Text '201301' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Zip Code - Checkout'
+
+2021-03-19 04:13:20 - [MESSAGE][PASSED] - Text '201301' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Zip Code - Checkout'
+
+2021-03-19 04:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Continue Checkout")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Continue Checkout' is clicked on
+
+2021-03-19 04:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Continue Checkout' is clicked on
+
+2021-03-19 04:13:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:13:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-03-19 04:13:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107401491.png]]
+
+2021-03-19 04:13:23 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2021-03-19 04:13:25 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2021-03-19 04:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/FINISH - Checkout")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/FINISH - Checkout' is clicked on
+
+2021-03-19 04:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/FINISH - Checkout' is clicked on
+
+2021-03-19 04:13:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:13:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-03-19 04:13:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107406455.png]]
+
+2021-03-19 04:13:27 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2021-03-19 04:13:28 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2021-03-19 04:13:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-19 04:13:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_01_Empty Cart" time="52.799" classname="Test Cases/TC_01_Empty Cart" status="PASSED">
+         <system-out><![CDATA[2021-03-19 04:13:30 - [TEST_CASE][PASSED] - Test Cases/TC_01_Empty Cart: Test Cases/TC_01_Empty Cart
+
+2021-03-19 04:13:31 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:13:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-19 04:13:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-19 04:13:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:13:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-19 04:13:36 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-19 04:13:36 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-03-19 04:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:13:38 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:13:38 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Swag Labs/Page_Swag Labs/Password"), "secret_sauce"): Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:13:39 - [MESSAGE][PASSED] - Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:13:39 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Login")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART' is clicked on
+
+2021-03-19 04:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART' is clicked on
+
+2021-03-19 04:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Sauce Labs Bike Light_ADD TO CART")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Bike Light_ADD TO CART' is clicked on
+
+2021-03-19 04:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Bike Light_ADD TO CART' is clicked on
+
+2021-03-19 04:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Sauce Labs Backpack_ADD TO CART")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Backpack_ADD TO CART' is clicked on
+
+2021-03-19 04:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Sauce Labs Backpack_ADD TO CART' is clicked on
+
+2021-03-19 04:13:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:13:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107422733.png]]
+
+2021-03-19 04:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Cart")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:13:44 - [TEST_STEP][PASSED] - check = verifyElementVisible(findTestObject("Swag Labs/Page_Swag Labs/button - REMOVE Cart"), OPTIONAL): Object 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is visible
+
+2021-03-19 04:13:45 - [MESSAGE][PASSED] - Object 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is visible
+
+2021-03-19 04:13:45 - [TEST_STEP][PASSED] - while (check == true): Web element with id: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' located by '//*[(text() = 'REMOVE' or . = 'REMOVE')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' located by '//*[(text() = 'REMOVE' or . = 'REMOVE')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:361)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at TC_01_Empty Cart.run(TC_01_Empty Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616107358206.run(TempTestSuite1616107358206.groovy:39)
+)
+
+2021-03-19 04:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/button - REMOVE Cart")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is clicked on
+
+2021-03-19 04:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is clicked on
+
+2021-03-19 04:13:46 - [TEST_STEP][PASSED] - check = verifyElementVisible(findTestObject("Swag Labs/Page_Swag Labs/button - REMOVE Cart"), OPTIONAL): Object 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is visible
+
+2021-03-19 04:13:46 - [MESSAGE][PASSED] - Object 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is visible
+
+2021-03-19 04:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/button - REMOVE Cart")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is clicked on
+
+2021-03-19 04:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is clicked on
+
+2021-03-19 04:13:47 - [TEST_STEP][PASSED] - check = verifyElementVisible(findTestObject("Swag Labs/Page_Swag Labs/button - REMOVE Cart"), OPTIONAL): Object 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is visible
+
+2021-03-19 04:13:48 - [MESSAGE][PASSED] - Object 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is visible
+
+2021-03-19 04:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/button - REMOVE Cart")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is clicked on
+
+2021-03-19 04:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' is clicked on
+
+2021-03-19 04:13:48 - [TEST_STEP][PASSED] - check = verifyElementVisible(findTestObject("Swag Labs/Page_Swag Labs/button - REMOVE Cart"), OPTIONAL): Web element with id: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' located by '//*[(text() = 'REMOVE' or . = 'REMOVE')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' located by '//*[(text() = 'REMOVE' or . = 'REMOVE')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:361)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at TC_01_Empty Cart.run(TC_01_Empty Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616107358206.run(TempTestSuite1616107358206.groovy:39)
+)
+
+2021-03-19 04:14:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'REMOVE' or . = 'REMOVE')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-19 04:14:20 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' located by '//*[(text() = 'REMOVE' or . = 'REMOVE')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Swag Labs/Page_Swag Labs/button - REMOVE Cart' located by '//*[(text() = 'REMOVE' or . = 'REMOVE')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:361)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$9.call(Unknown Source)
+	at TC_01_Empty Cart.run(TC_01_Empty Cart:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616107358206.run(TempTestSuite1616107358206.groovy:39)
+)
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107460241.png]]
+
+2021-03-19 04:14:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:14:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107461280.png]]
+
+2021-03-19 04:14:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-19 04:14:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_Add to Cart from PDP" time="30.211" classname="Test Cases/TC_02_Add to Cart from PDP" status="PASSED">
+         <system-out><![CDATA[2021-03-19 04:14:22 - [TEST_CASE][PASSED] - Test Cases/TC_02_Add to Cart from PDP: Test Cases/TC_02_Add to Cart from PDP
+
+2021-03-19 04:14:24 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:14:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-19 04:14:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-19 04:14:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:14:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-19 04:14:29 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-19 04:14:29 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-03-19 04:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:14:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:14:30 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Swag Labs/Page_Swag Labs/Password"), "secret_sauce"): Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:14:32 - [MESSAGE][PASSED] - Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Login")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/PDN_Sauce Labs Backpack")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/PDN_Sauce Labs Backpack' is clicked on
+
+2021-03-19 04:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/PDN_Sauce Labs Backpack' is clicked on
+
+2021-03-19 04:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/button - ADD TO CART PDP")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART PDP' is clicked on
+
+2021-03-19 04:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART PDP' is clicked on
+
+2021-03-19 04:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Back PDP")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Back PDP' is clicked on
+
+2021-03-19 04:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Back PDP' is clicked on
+
+2021-03-19 04:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/PDN_Sauce Labs Fleece Jacket")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/PDN_Sauce Labs Fleece Jacket' is clicked on
+
+2021-03-19 04:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/PDN_Sauce Labs Fleece Jacket' is clicked on
+
+2021-03-19 04:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/button - ADD TO CART PDP")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART PDP' is clicked on
+
+2021-03-19 04:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART PDP' is clicked on
+
+2021-03-19 04:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Back PDP")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Back PDP' is clicked on
+
+2021-03-19 04:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Back PDP' is clicked on
+
+2021-03-19 04:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Cart")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:14:39 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+2021-03-19 04:14:41 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2021-03-19 04:14:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:14:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107481448.png]]
+
+2021-03-19 04:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/CHECKOUT")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/CHECKOUT' is clicked on
+
+2021-03-19 04:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/CHECKOUT' is clicked on
+
+2021-03-19 04:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/First Name - Checkout"), "Aakash"): Text 'Aakash' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/First Name - Checkout'
+
+2021-03-19 04:14:43 - [MESSAGE][PASSED] - Text 'Aakash' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/First Name - Checkout'
+
+2021-03-19 04:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Last Name - Checkout"), "Arora"): Text 'Arora' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Last Name - Checkout'
+
+2021-03-19 04:14:44 - [MESSAGE][PASSED] - Text 'Arora' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Last Name - Checkout'
+
+2021-03-19 04:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Zip Code - Checkout"), "201301"): Text '201301' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Zip Code - Checkout'
+
+2021-03-19 04:14:45 - [MESSAGE][PASSED] - Text '201301' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Zip Code - Checkout'
+
+2021-03-19 04:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Continue Checkout")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Continue Checkout' is clicked on
+
+2021-03-19 04:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Continue Checkout' is clicked on
+
+2021-03-19 04:14:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:14:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-03-19 04:14:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107486642.png]]
+
+2021-03-19 04:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/FINISH - Checkout")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/FINISH - Checkout' is clicked on
+
+2021-03-19 04:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/FINISH - Checkout' is clicked on
+
+2021-03-19 04:14:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:14:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-03-19 04:14:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107489727.png]]
+
+2021-03-19 04:14:51 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2021-03-19 04:14:52 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2021-03-19 04:14:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-19 04:14:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_03_Order Cheapest Products" time="26.832" classname="Test Cases/TC_03_Order Cheapest Products" status="PASSED">
+         <system-out><![CDATA[2021-03-19 04:14:53 - [TEST_CASE][PASSED] - Test Cases/TC_03_Order Cheapest Products: Test Cases/TC_03_Order Cheapest Products
+
+2021-03-19 04:14:54 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:14:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-19 04:14:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-19 04:14:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2021-03-19 04:14:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-19 04:14:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-19 04:14:59 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-03-19 04:14:59 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:15:01 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Username'
+
+2021-03-19 04:15:01 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Swag Labs/Page_Swag Labs/Password"), "secret_sauce"): Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:15:02 - [MESSAGE][PASSED] - Text '************' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Password'
+
+2021-03-19 04:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Login")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Login' is clicked on
+
+2021-03-19 04:15:03 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Swag Labs/Page_Swag Labs/Sorting Dropdown"), 2): All options with index in [2] are selected on object 'Object Repository/Swag Labs/Page_Swag Labs/Sorting Dropdown'
+
+2021-03-19 04:15:05 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Swag Labs/Page_Swag Labs/Sorting Dropdown'
+
+2021-03-19 04:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/button - ADD TO CART Generic")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART Generic' is clicked on
+
+2021-03-19 04:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART Generic' is clicked on
+
+2021-03-19 04:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/button - ADD TO CART Generic")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART Generic' is clicked on
+
+2021-03-19 04:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/button - ADD TO CART Generic' is clicked on
+
+2021-03-19 04:15:06 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Cart")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Cart' is clicked on
+
+2021-03-19 04:15:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:15:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107507253.png]]
+
+2021-03-19 04:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/CHECKOUT")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/CHECKOUT' is clicked on
+
+2021-03-19 04:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/CHECKOUT' is clicked on
+
+2021-03-19 04:15:08 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/First Name - Checkout"), "Aakash"): Text 'Aakash' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/First Name - Checkout'
+
+2021-03-19 04:15:09 - [MESSAGE][PASSED] - Text 'Aakash' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/First Name - Checkout'
+
+2021-03-19 04:15:09 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Last Name - Checkout"), "Arora"): Text 'Arora' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Last Name - Checkout'
+
+2021-03-19 04:15:10 - [MESSAGE][PASSED] - Text 'Arora' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Last Name - Checkout'
+
+2021-03-19 04:15:10 - [TEST_STEP][PASSED] - setText(findTestObject("Swag Labs/Page_Swag Labs/Zip Code - Checkout"), "201301"): Text '201301' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Zip Code - Checkout'
+
+2021-03-19 04:15:11 - [MESSAGE][PASSED] - Text '201301' is set on object 'Object Repository/Swag Labs/Page_Swag Labs/Zip Code - Checkout'
+
+2021-03-19 04:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/Button - Continue Checkout")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Continue Checkout' is clicked on
+
+2021-03-19 04:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/Button - Continue Checkout' is clicked on
+
+2021-03-19 04:15:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:15:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-03-19 04:15:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107512304.png]]
+
+2021-03-19 04:15:14 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2021-03-19 04:15:15 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2021-03-19 04:15:15 - [TEST_STEP][PASSED] - click(findTestObject("Swag Labs/Page_Swag Labs/FINISH - Checkout")): Object: 'Object Repository/Swag Labs/Page_Swag Labs/FINISH - Checkout' is clicked on
+
+2021-03-19 04:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Swag Labs/Page_Swag Labs/FINISH - Checkout' is clicked on
+
+2021-03-19 04:15:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-03-19 04:15:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-03-19 04:15:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Aakash\\git\\katalon\\Reports\\20210319_041238\\Swag Test\\20210319_041238\\1616107516488.png]]
+
+2021-03-19 04:15:18 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2021-03-19 04:15:19 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2021-03-19 04:15:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-19 04:15:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-19 04:12:51 - [TEST_SUITE][PASSED] - Swag Test: Test Cases/TC_03_Order Cheapest Products]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

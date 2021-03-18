@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Swag Test,Chrome 89.0.4389.90,,,2021-03-19 04:12:51,2021-03-19 04:15:19,2m - 28.278s,PASSED
+,,,,,,,
+Test Cases/E2E Flow,Chrome 89.0.4389.90,,,2021-03-19 04:12:56,2021-03-19 04:13:29,33.639s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 89.0.4389.90,,,2021-03-19 04:12:58,2021-03-19 04:13:07,8.882s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-19 04:13:07,2021-03-19 04:13:07,0.257s,PASSED
+enableSmartWait(),Chrome 89.0.4389.90,,,2021-03-19 04:13:07,2021-03-19 04:13:07,0.078s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Username""), ""standard_user"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:07,2021-03-19 04:13:08,1.450s,PASSED
+"setMaskedText(findTestObject(""Swag Labs/Page_Swag Labs/Password""), ""secret_sauce"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:08,2021-03-19 04:13:10,1.261s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Login""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:10,2021-03-19 04:13:10,0.807s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:10,2021-03-19 04:13:11,0.701s,PASSED
+waitForAlert(1),Chrome 89.0.4389.90,"Not relevant for test execution. Wait has been implemented for ease of understanding the flow.
+",,2021-03-19 04:13:11,2021-03-19 04:13:12,1.128s,PASSED
+takeFullPageScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:13:12,2021-03-19 04:13:16,3.482s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Cart""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:16,2021-03-19 04:13:16,0.655s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/CHECKOUT""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:16,2021-03-19 04:13:17,0.673s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/First Name - Checkout""), ""Aakash"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:17,2021-03-19 04:13:18,1.102s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Last Name - Checkout""), ""Arora"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:18,2021-03-19 04:13:19,1.117s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Zip Code - Checkout""), ""201301"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:19,2021-03-19 04:13:20,1.065s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Continue Checkout""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:20,2021-03-19 04:13:21,0.673s,PASSED
+takeFullPageScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:13:21,2021-03-19 04:13:23,2.256s,PASSED
+waitForAlert(2),Chrome 89.0.4389.90,Not relevant for test execution. Wait has been implemented for ease of understanding the flow.,,2021-03-19 04:13:23,2021-03-19 04:13:25,2.065s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/FINISH - Checkout""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:25,2021-03-19 04:13:26,0.649s,PASSED
+takeFullPageScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:13:26,2021-03-19 04:13:27,1.500s,PASSED
+waitForAlert(1),Chrome 89.0.4389.90,"Not relevant for test execution. Wait has been implemented for ease of understanding the flow.
+",,2021-03-19 04:13:27,2021-03-19 04:13:28,1.048s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2021-03-19 04:13:28,2021-03-19 04:13:29,0.887s,PASSED
+,,,,,,,
+Test Cases/TC_01_Empty Cart,Chrome 89.0.4389.90,Validate that the user is able to remove all products from the card after adding them to cart.,,2021-03-19 04:13:30,2021-03-19 04:14:22,52.799s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:31,2021-03-19 04:13:36,5.278s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-19 04:13:36,2021-03-19 04:13:36,0.197s,PASSED
+enableSmartWait(),Chrome 89.0.4389.90,,,2021-03-19 04:13:36,2021-03-19 04:13:36,0.016s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Username""), ""standard_user"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:36,2021-03-19 04:13:38,1.237s,PASSED
+"setMaskedText(findTestObject(""Swag Labs/Page_Swag Labs/Password""), ""secret_sauce"")",Chrome 89.0.4389.90,,,2021-03-19 04:13:38,2021-03-19 04:13:39,1.193s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Login""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:39,2021-03-19 04:13:40,0.879s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Sauce Labs Bolt T-Shirt_ADD TO CART""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:40,2021-03-19 04:13:40,0.738s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Sauce Labs Bike Light_ADD TO CART""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:40,2021-03-19 04:13:41,0.732s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Sauce Labs Backpack_ADD TO CART""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:41,2021-03-19 04:13:42,0.740s,PASSED
+takeScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:13:42,2021-03-19 04:13:43,1.483s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Cart""))",Chrome 89.0.4389.90,,,2021-03-19 04:13:43,2021-03-19 04:13:44,0.791s,PASSED
+"check = verifyElementVisible(findTestObject(""Swag Labs/Page_Swag Labs/button - REMOVE Cart""), OPTIONAL)",Chrome 89.0.4389.90,,,2021-03-19 04:13:44,2021-03-19 04:13:45,0.784s,PASSED
+while (check == true),Chrome 89.0.4389.90,,,2021-03-19 04:13:45,2021-03-19 04:14:20,35.624s,PASSED
+takeScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:14:20,2021-03-19 04:14:21,0.971s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2021-03-19 04:14:21,2021-03-19 04:14:22,0.908s,PASSED
+,,,,,,,
+Test Cases/TC_02_Add to Cart from PDP,Chrome 89.0.4389.90,,,2021-03-19 04:14:22,2021-03-19 04:14:53,30.211s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:24,2021-03-19 04:14:29,5.027s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-19 04:14:29,2021-03-19 04:14:29,0.213s,PASSED
+enableSmartWait(),Chrome 89.0.4389.90,,,2021-03-19 04:14:29,2021-03-19 04:14:29,0.024s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Username""), ""standard_user"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:29,2021-03-19 04:14:30,1.346s,PASSED
+"setMaskedText(findTestObject(""Swag Labs/Page_Swag Labs/Password""), ""secret_sauce"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:30,2021-03-19 04:14:32,1.666s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Login""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:32,2021-03-19 04:14:33,1.121s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/PDN_Sauce Labs Backpack""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:33,2021-03-19 04:14:34,0.997s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/button - ADD TO CART PDP""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:34,2021-03-19 04:14:35,0.825s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Back PDP""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:35,2021-03-19 04:14:36,0.755s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/PDN_Sauce Labs Fleece Jacket""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:36,2021-03-19 04:14:37,0.729s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/button - ADD TO CART PDP""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:37,2021-03-19 04:14:37,0.637s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Back PDP""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:37,2021-03-19 04:14:38,0.673s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Cart""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:38,2021-03-19 04:14:39,0.749s,PASSED
+waitForAlert(2),Chrome 89.0.4389.90,"Not relevant for test execution. Wait has been implemented for ease of understanding the flow.
+",,2021-03-19 04:14:39,2021-03-19 04:14:41,2.071s,PASSED
+takeScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:14:41,2021-03-19 04:14:42,0.878s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/CHECKOUT""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:42,2021-03-19 04:14:42,0.662s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/First Name - Checkout""), ""Aakash"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:42,2021-03-19 04:14:43,1.129s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Last Name - Checkout""), ""Arora"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:43,2021-03-19 04:14:44,1.078s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Zip Code - Checkout""), ""201301"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:44,2021-03-19 04:14:45,1.074s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Continue Checkout""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:45,2021-03-19 04:14:46,0.652s,PASSED
+takeFullPageScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:14:46,2021-03-19 04:14:49,2.431s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/FINISH - Checkout""))",Chrome 89.0.4389.90,,,2021-03-19 04:14:49,2021-03-19 04:14:49,0.653s,PASSED
+takeFullPageScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:14:49,2021-03-19 04:14:51,1.492s,PASSED
+waitForAlert(1),Chrome 89.0.4389.90,"Not relevant for test execution. Wait has been implemented for ease of understanding the flow.
+",,2021-03-19 04:14:51,2021-03-19 04:14:52,1.029s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2021-03-19 04:14:52,2021-03-19 04:14:53,0.860s,PASSED
+,,,,,,,
+Test Cases/TC_03_Order Cheapest Products,Chrome 89.0.4389.90,Order two lowest price products from the inventory,,2021-03-19 04:14:53,2021-03-19 04:15:19,26.832s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:54,2021-03-19 04:14:59,4.992s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-03-19 04:14:59,2021-03-19 04:14:59,0.199s,PASSED
+enableSmartWait(),Chrome 89.0.4389.90,,,2021-03-19 04:14:59,2021-03-19 04:14:59,0.024s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Username""), ""standard_user"")",Chrome 89.0.4389.90,,,2021-03-19 04:14:59,2021-03-19 04:15:01,1.440s,PASSED
+"setMaskedText(findTestObject(""Swag Labs/Page_Swag Labs/Password""), ""secret_sauce"")",Chrome 89.0.4389.90,,,2021-03-19 04:15:01,2021-03-19 04:15:02,1.309s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Login""))",Chrome 89.0.4389.90,,,2021-03-19 04:15:02,2021-03-19 04:15:03,0.956s,PASSED
+"selectOptionByIndex(findTestObject(""Swag Labs/Page_Swag Labs/Sorting Dropdown""), 2)",Chrome 89.0.4389.90,,,2021-03-19 04:15:03,2021-03-19 04:15:05,1.678s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/button - ADD TO CART Generic""))",Chrome 89.0.4389.90,,,2021-03-19 04:15:05,2021-03-19 04:15:05,0.594s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/button - ADD TO CART Generic""))",Chrome 89.0.4389.90,,,2021-03-19 04:15:05,2021-03-19 04:15:06,0.602s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Cart""))",Chrome 89.0.4389.90,,,2021-03-19 04:15:06,2021-03-19 04:15:06,0.612s,PASSED
+takeScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:15:06,2021-03-19 04:15:07,0.968s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/CHECKOUT""))",Chrome 89.0.4389.90,,,2021-03-19 04:15:07,2021-03-19 04:15:08,0.646s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/First Name - Checkout""), ""Aakash"")",Chrome 89.0.4389.90,,,2021-03-19 04:15:08,2021-03-19 04:15:09,1.105s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Last Name - Checkout""), ""Arora"")",Chrome 89.0.4389.90,,,2021-03-19 04:15:09,2021-03-19 04:15:10,1.036s,PASSED
+"setText(findTestObject(""Swag Labs/Page_Swag Labs/Zip Code - Checkout""), ""201301"")",Chrome 89.0.4389.90,,,2021-03-19 04:15:10,2021-03-19 04:15:11,1.038s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/Button - Continue Checkout""))",Chrome 89.0.4389.90,,,2021-03-19 04:15:11,2021-03-19 04:15:12,0.651s,PASSED
+takeFullPageScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:15:12,2021-03-19 04:15:14,2.483s,PASSED
+waitForAlert(1),Chrome 89.0.4389.90,Not relevant for test execution. Wait has been implemented for ease of understanding the flow.,,2021-03-19 04:15:14,2021-03-19 04:15:15,1.028s,PASSED
+"click(findTestObject(""Swag Labs/Page_Swag Labs/FINISH - Checkout""))",Chrome 89.0.4389.90,,,2021-03-19 04:15:15,2021-03-19 04:15:16,0.667s,PASSED
+takeFullPageScreenshot(),Chrome 89.0.4389.90,,,2021-03-19 04:15:16,2021-03-19 04:15:18,1.533s,PASSED
+waitForAlert(1),Chrome 89.0.4389.90,"Not relevant for test execution. Wait has been implemented for ease of understanding the flow.
+",,2021-03-19 04:15:18,2021-03-19 04:15:19,1.022s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2021-03-19 04:15:19,2021-03-19 04:15:19,0.907s,PASSED

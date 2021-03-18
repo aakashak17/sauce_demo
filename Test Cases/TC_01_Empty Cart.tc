@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate that the user is able to remove all products from the card after adding them to cart.</description>
+   <name>TC_01_Empty Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2f266f6-545c-4acf-8a8e-ce62d438e0da</testCaseGuid>
+</TestCaseEntity>
